@@ -15,16 +15,13 @@ public class Main {
     }
 
     public static int binaryStringToInt (String s){
-
         try {
-            int foo = Integer.parseInt(s, 2);
-            return foo;
+            int binar = Integer.parseInt(s, 2);
+            return binar;
 
         } catch (NumberFormatException e) {
             System.out.println("Вводьте лише 1 та 0");
         }
-
         return 0;
-
     }
 }
